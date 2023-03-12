@@ -4,12 +4,11 @@
     border: 0.35rem solid rgb(235, 243, 249);
     box-shadow: 0 0 0 0.15rem hwb(208 77% 4%);
     outline: 0.15rem solid hsl(207, 51%, 88%);
-    margin: 0 auto;
+    margin: 10rem auto;
     width: 85%;
     height: 50%;
     cursor: pointer;
     background-color: azure;
-    font: small-caps bold 20px/1 ;
     font-family: arial black;
 }
 
@@ -23,12 +22,11 @@ input {
 
 label {
     color: #4f86ea;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     cursor: pointer;
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -56,6 +54,3 @@ input:checked+label i {
 input:checked+label {    
     color: black;
 }
-
-
-
