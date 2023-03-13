@@ -32,21 +32,21 @@ div + div  div {
 }
 img {
     width: 10rem;
-    height: 10rem;    
+    height: 10rem; 
+    transition: width 2s, height 2s, transform 2s;    
 }
 input:checked+label+div{
-    display: block;       
+    display: block;           
 }
 input:checked+label i {
     transform: rotate(90deg);
-    color: black;  
+    color: black;      
 }
 input:checked+label {    
-    color: black;    
+    color: black;  
 }
 input:hover+label+div{
-    display: block;
-    transition: width 2s, height 2s, transform 2s;
+    display: block;    
 }
 img:hover{
     width: 15rem;
