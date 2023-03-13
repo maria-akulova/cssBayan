@@ -42,15 +42,17 @@ img {
 }
 
 input:checked+label+div{
-    display: block;
-   
+    display: block;   
 }
 
 input:checked+label i {
     transform: rotate(90deg);
     color: black;
-
 }
+
 input:checked+label {    
     color: black;
+}
+input:hover+label+div{
+    display: block;   
 }
