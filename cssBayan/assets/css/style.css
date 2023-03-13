@@ -1,4 +1,3 @@
-
 .main {
     border-radius: 0.3rem;
     border: 0.35rem solid rgb(235, 243, 249);
@@ -11,48 +10,43 @@
     background-color: azure;
     font-family: arial black;
 }
-
 div+div {
     border-top: 0.13rem outset;
 }
-
 input {
   display: none;
 }
-
 label {
     color: #4f86ea;
-    font-size: 0.65rem;
     cursor: pointer;
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-
 div + div  div {
     text-align: center;
     display: none;
 }
-
 img {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;    
 }
-
 input:checked+label+div{
-    display: block;   
+    display: block;       
 }
-
 input:checked+label i {
     transform: rotate(90deg);
-    color: black;
+    color: black;  
 }
-
 input:checked+label {    
-    color: black;
+    color: black;    
 }
 input:hover+label+div{
-    display: block;   
+    display: block;
+    transition: width 2s, height 2s, transform 2s;
+}
+img:hover{
+    width: 15rem;
+    height: 15rem;
 }
